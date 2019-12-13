@@ -1,0 +1,49 @@
+/*@define-mixin atSmall {
+    @media (min-width: 530px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin atMedium {
+    @media (min-width: 800px) {
+       @mixin-content;
+    }
+}
+
+@define-mixin atLarge {
+    @media (min-width: 1010px) {
+        @mixin-content;
+    }
+}*/
+
+/*To convert pixels to em just divie the pixels to 16.
+Example: 576px / 16 = 36em*/
+@mixin atSmall {
+    /*@media only screen and (min-width: 576px) {*/
+    @media only screen and (min-width: 36em) {
+        @content;
+    }
+}
+
+@mixin atMedium {
+    /*@media only screen and (min-width: 768px) {*/
+    @media only screen and (min-width: 48em) {
+        @content;
+    }
+}
+
+@mixin atLarge {
+    /*@media only screen and (min-width: 978px) {*/
+    @media only screen and (min-width: 61.125em) {
+    /*@media (min-width: 800px) {*/
+        @content;
+    }
+}
+
+/*@define-mixin clearfix {
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}*/

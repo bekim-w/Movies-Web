@@ -1,0 +1,16 @@
+.logo {
+	display: flex;
+
+	&__photo {
+		width: 30px;
+		display: inline-block;
+	}
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	span {
+		display: inline-block;
+	}
+}

@@ -1,0 +1,181 @@
+@import '../../assets/_mixins.scss';
+.movie-section {
+	/*overflow: hidden;*/
+
+	&__background {
+		/*height: 470px;*/
+		height: 400px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 0%;
+		/*filter: blur(2px);*/
+		/*transform: scale(1.1);*/
+	}
+
+	&__bg-effect {
+		background-color: rgba(0, 0, 1, 0.2);
+		width: 100%;
+		height: 100%;
+	}
+
+	&__content {
+		position: relative;
+		background-color: #1d1d1d;
+		color: #fff;
+		padding: 50px 0;
+	}
+
+	&__info {
+		margin: 0 auto;
+		margin-top: 150px;
+		width: 90%;
+		text-align: center;
+
+		@include atLarge {	
+			margin: 0;	
+			margin-left: 465px;
+			width: 50%;
+			text-align: left;
+		}
+	}
+
+	&__poster {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		position: absolute;
+		bottom: 190px;
+		left: 50%;
+		width: 255px;
+		height: 400px;
+		z-index: 5;
+		transform: translate(-50%, -50%);
+
+		@include atMedium {	
+			bottom: 150px;
+		}
+		
+		@include atLarge {
+			transform: translate(0, 0);
+			bottom: 70px;
+			left: 130px;
+			width: 280px;
+			height: 430px;
+		}
+	}
+}
+
+.movieVideo {
+	display: block;
+	width: 90%;
+	max-width: 594px;
+	height: 340px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border: none;
+
+	@include atLarge {
+		max-width: 864px;
+		height: 498px;
+	}
+}
+
+/******** Movie Video Image ***********/
+.movieVideoImage {
+	width: 90%;
+	max-width: 594px;
+	height: 340px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 100px;
+	position: relative;
+	overflow: hidden;
+
+	@include atLarge {
+		max-width: 864px;
+		height: 498px;
+	}
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	&:hover &__icon-wrapper {
+		transform: translate(-50%, -50%) scale(.7) ;
+		opacity: 1;
+		border: 5px solid #0279f8;
+	}
+
+	&:hover &__controls {
+		bottom: 0;
+	}
+	&:hover &__effect {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	&__effect {
+		transition: .2s;
+		width: 100%;
+		height: 100%;
+	}
+
+	&__icon-wrapper {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		/*width: 80px;*/
+		/*height: 80px;*/
+		background-color: black;
+		padding: 25px;
+		border-radius: 100%;
+		opacity: .7;
+		transition: .2s;
+	}
+
+	&__icon {
+		position: relative;
+		/*border: 1px solid red;*/
+		/*padding: 40px;*/
+		border-radius: 100%;
+		width: 40px;
+		height: 40px;
+		background-color: white;
+	}
+
+	.faPlay {
+		position: absolute;
+		top: 50%;
+		left: 56%;
+		transform: translate(-50%, -50%);
+		font-size: 20px;
+	}
+
+	&__controls {
+		position: absolute;
+		bottom: -40px;
+		transition: .2s; 
+		width: 100%;
+		background-color: black;
+		opacity: .6;
+		color: white;
+		padding: 5px 17px;
+	}
+	
+	.col-6:last-child {
+		text-align: right;
+	}
+
+	.faPlay-control,
+	.faVolumeUp,
+	.time {
+		margin-right: 22px;
+	}
+
+	.faCog,
+	.faArrowsAlt {
+		margin-left: 22px;
+	}
+}

@@ -1,0 +1,56 @@
+/******* movie cards *******/
+.movie-cards {
+	margin-top: 150px;
+	/*margin-bottom: 150px;*/
+	background-color: #151515;
+	padding: 80px 0;
+}
+
+.movie-card {margin-top: 100px;
+	position: relative;
+	width: 100%;
+	max-width: 500px;
+	/*height: 250px;*/
+	background-color: #e8e3e3;
+	border-radius: 5px;
+	padding: 20px;
+	transition: .5s;
+
+	&:hover,
+	&:hover &__poster {
+		transform: translateY(-10px);
+	}
+
+
+	&__poster {
+		position: absolute;
+		bottom: 40px;
+		left: 20px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 180px;
+		height: 240px;
+		border-radius: 5px;
+		transition: .5s;
+	}
+
+	&__content {
+		margin-left: 240px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+
+	&__description {
+		font-size: 13px;
+	}
+
+	button {
+		color: #ebe7e7;
+		background-color: #777;
+		padding: 4px 17px;
+		border: none;
+		border-radius: 50px;
+	}
+}

@@ -1,0 +1,33 @@
+/*https://codepen.io/yunjung-lee/pen/ebmYmx*/
+/*https://codepen.io/samliew/pen/qJJojz*/
+/*http://www.harborsailboats.com/wp-content/uploads/2017/04/5a36f9d97d0d54f0a186b4d7fb742ad3_five-stars-salon-review-google-5-star-review-clipart_3000-700.png*/
+.review-stars {
+    display: inline-block;
+    position: relative;
+    /*When changing the width and height, keep the aspect ratio of the image same*/
+    width: 125px;
+    height: 23.5px;
+    user-select: none;
+    background-position: left;
+    /*background-size: auto 100%;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*border: 1px solid red;*/
+    /*filter: gray;*/
+    /*filter: grayscale(1);*/
+    transform: scaleX(-1);
+}
+
+.review-stars-selected {
+    display: block;
+    /*top: 0;*/
+    /*right: 0;*/
+    height: 100%;
+    background-position: left;
+    background-size: auto 100%;
+    /*background-size: contain;*/
+    background-repeat: no-repeat;
+    filter: gray;
+    filter: grayscale(1);
+    /*border: 1px solid blue;*/
+}

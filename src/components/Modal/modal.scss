@@ -1,0 +1,89 @@
+/****** modal *********/
+.register-modal {
+    position: fixed;
+    z-index: 10000;
+    /*padding-top: 100px;*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*overflow: auto;*/
+    /*background-color: rgb(0,0,0);*/
+    background-color: rgba(0,0,0,0.7);
+
+    &__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        max-width: 500px;
+        animation-name: modalAnimation;
+        animation-duration: 0.4s;
+    }
+
+    &__project-content {
+        padding: 20px;
+        padding-top: 45px;
+        background-color: #0e1111;/**/
+        /*height: 320px;*/
+    }
+
+    &__input-row {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    h2 {
+        color: #eee;
+        margin-bottom: 4px;
+        font-size: 25px;
+    }
+
+    p, input {
+        width: 70%;
+    }
+
+    p {
+        text-align: left;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        /*color: $contact-text;*/
+        color: #989ba5; /*#8d8d8d;/**/
+    }
+
+    button {
+        /*background-color: transparent;*/
+        /*color: $secondary-color;*/
+        padding: 9px 20px;
+        border: none;
+        
+        &:first-child {
+            margin-right: 20px;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__close {
+        position: absolute;
+        right: 15px;
+        top: 5px;
+        color: #eee;
+        font-size: 28px;
+        font-weight: bold;
+
+        &:hover,
+        &:focus {
+            opacity: .5;
+            cursor: pointer;
+        }
+    }
+}
+
+@keyframes modalAnimation {
+    from { top: -300px; opacity: 0; }
+    to { top: 50%; opacity: 1; }
+}

@@ -1,0 +1,50 @@
+@import '../../assets/_mixins.scss';
+a {
+	cursor: pointer;
+}
+
+a.dropdown-item {
+	color: #fff;
+}
+
+.b-profile {
+	color: white;
+}
+
+.b-chart-number {
+	display: inline-block;
+	background-color: cyan;
+	border-radius: 50%;
+	padding: 0 8px;
+	color: black;
+	font-size: 14px;
+}
+
+/*Search*/
+.form-inline {
+	flex-wrap: nowrap;
+}
+
+.form-inline .form-control {
+	/*width: 100%;*/
+	flex-grow: 1;
+}
+
+.b-search-wrapper {
+	/*border: 1px solid red;*/
+	/*width: 50%;*/
+	margin: 0 auto;
+	
+	@include atLarge {
+		width: 40%;
+	}
+}
+
+.form-control.b-search {
+	width: 70%;
+}
+
+/*helpers*/
+.b-center {
+	text-align: center;
+}
