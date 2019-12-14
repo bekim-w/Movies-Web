@@ -36,7 +36,7 @@ class LogIn extends Component {
 
 		if(userExists) {
 			this.props.logIn();
-			this.props.history.push(`/`);
+			this.props.history.push(`/movies-web`);
 		} else {
 			alert("Wrong Email or Password!!!");
 		}
@@ -65,7 +65,7 @@ class LogIn extends Component {
 						<input onChange={ this.handlePassword } type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
 					</div>
 					<button onClick={this.submitLogIn} type="button" className="btn btn-primary mr-4">Log In</button>
-					<button onClick={() => this.props.history.push(`/register`)} type="button" className="btn btn-primary">Register</button>
+					<button onClick={() => this.props.history.push(`/movies-web/register`)} type="button" className="btn btn-primary">Register</button>
 				</form>
 			</div>
 		);

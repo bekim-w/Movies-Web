@@ -16,7 +16,7 @@ class GenrePage extends Component {
 	render() {
 		const { movies } = this.state;
 		//Remove the slash and make first letter upperCase
-		const movieGenre = this.props.location.pathname.charAt(1).toUpperCase() + this.props.location.pathname.slice(2);
+		const movieGenre = this.props.location.pathname.charAt(12).toUpperCase() + this.props.location.pathname.slice(13);
 
  		return (
 			<div className="container">
@@ -30,7 +30,7 @@ class GenrePage extends Component {
 								<MainMovieCard
 									moviePoster={movie.moviePoster}
 									name={movie.name}
-									url={`/${movie.url}`} />
+									url={`/movies-web/${movie.url}`} />
 							: ""
 						))
 					}

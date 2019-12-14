@@ -10,28 +10,28 @@ export const moviesData =
             "Drama",
             "Crime"
         ],
-        "moviePoster": "../../assets/img/moviePosters/the-irishman-2019.jpg",
-        "movieCover": "the-irishman-2019.jpg",
+        "moviePoster": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/moviePosters/the-irishman-2019.jpg",
+        "movieCover": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieCovers/the-irishman-2019.jpg",
         "review": 4.5,
         // https://www.youtube.com/watch?v=WHXxVmeGQUc
         "trailerLink": "https://www.youtube.com/embed/WHXxVmeGQUc",
-        "movieVideoImage": "the-irishman-2019.jpg"
+        "movieVideoImage": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieVideoImages/the-irishman-2019.jpg"
     },
     {
         "id": 1,
-        "name": "Once Upon a Time in Hollywood",
+        "name": "Joker",
         "year": 2019,
-        "url": "once-upon-a-atime-in-hollywood-2019",
-        "description": "Actor Rick Dalton gained fame and fortune by starring in a 1950s television Western, but is now struggling to find meaningful work in a Hollywood that he doesn't recognize anymore. He spends most of his time drinking and palling around with Cliff Booth, his easygoing best friend and longtime stunt double.",
+        "url": "joker-2019",
+        "description": "Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he's part of the world around him. Isolated, bullied and disregarded by society, Fleck begins a slow descent into madness as he transforms into the criminal mastermind known as the Joker",
         "category": [
             "Drama",
-            "Comedy"
+            "Thriller"
         ],
-        "moviePoster": "assets/img/moviePosters/once-upon-a-time-2019.jpg",
-        "movieCover": "once-upon-a-time-2019.jpg",
-        "review": 4.5,
-        "trailerLink": "https://www.youtube.com/embed/ELeMaP8EPAA",
-        "movieVideoImage": "once-upon-a-time-2019.jpg"
+        "moviePoster": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/moviePosters/joker-2019.jpg",
+        "movieCover": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieCovers/joker-2019.jpg",
+        "review": 4.3,
+        "trailerLink": "https://www.youtube.com/embed/zAGVQLHvwOY",
+        "movieVideoImage": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieVideoImages/joker-2019.jpg"
     },
     {
         "id": 2,
@@ -43,14 +43,46 @@ export const moviesData =
             "Sci-fi",
             "Action"
         ],
-        "moviePoster": "assets/img/moviePosters/deadpool-2016.jpg",
-        "movieCover": "deadpool-2016.jpg",
+        "moviePoster": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/moviePosters/deadpool-2016.jpg",
+        "movieCover": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieCovers/deadpool-2016.jpg",
         "review": 3.7,
         "trailerLink": "https://www.youtube.com/embed/Xithigfg7dA",
-        "movieVideoImage": "deadpool-2016.jpg"
+        "movieVideoImage": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieVideoImages/deadpool-2016.jpg"
     },
     {
         "id": 3,
+        "name": "IT",
+        "year": 2017,
+        "url": "it-2017",
+        "description": "Defeated by members of the Losers' Club, the evil clown Pennywise returns 27 years later to terrorize the town of Derry, Maine, once again. Now adults, the childhood friends have long since gone their separate ways. But when people start disappearing, Mike Hanlon calls the others home for one final stand.",
+        "category": [
+            "Thriller",
+            "Mistery"
+        ],
+        "moviePoster": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/moviePosters/it-2017.jpg",
+        "movieCover": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieCovers/it-2017.jpg",
+        "review": 3.6,
+        "trailerLink": "https://www.youtube.com/embed/hAUTdjf9rko",
+        "movieVideoImage": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieVideoImages/it-2017.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Once Upon a Time in Hollywood",
+        "year": 2019,
+        "url": "once-upon-a-atime-in-hollywood-2019",
+        "description": "Actor Rick Dalton gained fame and fortune by starring in a 1950s television Western, but is now struggling to find meaningful work in a Hollywood that he doesn't recognize anymore. He spends most of his time drinking and palling around with Cliff Booth, his easygoing best friend and longtime stunt double.",
+        "category": [
+            "Drama",
+            "Comedy"
+        ],
+        "moviePoster": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/moviePosters/once-upon-a-time-2019.jpg",
+        "movieCover": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieCovers/once-upon-a-time-2019.jpg",
+        "review": 4.5,
+        "trailerLink": "https://www.youtube.com/embed/ELeMaP8EPAA",
+        "movieVideoImage": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieVideoImages/once-upn-a-time-2019.jpg"
+    },
+    {
+        "id": 5,
         "name": "Despicable Me 2",
         "year": 2013,
         "url": "despicable-me-2-2013",
@@ -60,43 +92,11 @@ export const moviesData =
             "Adventure",
             "Comedy"
         ],
-        "moviePoster": "assets/img/moviePosters/despicalble-me-2.jpg",
-        "movieCover": "despicalble-me-2.jpg",
+        "moviePoster": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/moviePosters/despicable-me-2.jpg",
+        "movieCover": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieCovers/despicable-me-2.jpg",
         "review": 5,
         "trailerLink": "https://www.youtube.com/embed/GdDxyxan3Y4",
-        "movieVideoImage": "despicalble-me-2.jpg"
-    },
-    {
-        "id": 4,
-        "name": "Joker",
-        "year": 2019,
-        "url": "joker-2019",
-        "description": "Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he's part of the world around him. Isolated, bullied and disregarded by society, Fleck begins a slow descent into madness as he transforms into the criminal mastermind known as the Joker",
-        "category": [
-            "Drama",
-            "Thriller"
-        ],
-        "moviePoster": "assets/img/moviePosters/joker-2019.jpg",
-        "movieCover": "joker-2019.jpg",
-        "review": 4.3,
-        "trailerLink": "https://www.youtube.com/embed/zAGVQLHvwOY",
-        "movieVideoImage": "joker-2019.jpg"
-    },
-    {
-        "id": 5,
-        "name": "IT",
-        "year": 2017,
-        "url": "it-2017",
-        "description": "Defeated by members of the Losers' Club, the evil clown Pennywise returns 27 years later to terrorize the town of Derry, Maine, once again. Now adults, the childhood friends have long since gone their separate ways. But when people start disappearing, Mike Hanlon calls the others home for one final stand.",
-        "category": [
-            "Thriller",
-            "Mistery"
-        ],
-        "moviePoster": "assets/img/moviePosters/it-2017.jpg",
-        "movieCover": "it-2017.jpg",
-        "review": 3.6,
-        "trailerLink": "https://www.youtube.com/embed/hAUTdjf9rko",
-        "movieVideoImage": "it-2017.jpg"
+        "movieVideoImage": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieVideoImages/despicable-me-2.jpg"
     },
     {
         "id": 6,
@@ -108,11 +108,11 @@ export const moviesData =
             "Thriller",
             "Mystery"
         ],
-        "moviePoster": "assets/img/moviePosters/shutter-island-2010.jpg",
-        "movieCover": "shutter-island-2010.jpg",
+        "moviePoster": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/moviePosters/shutter-island-2010.jpg",
+        "movieCover": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieCovers/shutter-island-2010.jpg",
         "review": 4.7,
         "trailerLink": "https://www.youtube.com/embed/v8yrZSkKxTA",
-        "movieVideoImage": "shutter-island-2010.jpg"
+        "movieVideoImage": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieVideoImages/shutter-island-2010.jpg"
     },
     {
         "id": 7,
@@ -124,11 +124,11 @@ export const moviesData =
             "Mistery",
             "Action"
         ],
-        "moviePoster": "assets/img/moviePosters/hobbs-shaw-2019.jpg",
-        "movieCover": "hobbs-shaw-2019.jpg",
+        "moviePoster": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/moviePosters/hobbs-shaw-2019.jpg",
+        "movieCover": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieCovers/hobbs-shaw-2019.jpg",
         "review": 3.8,
         "trailerLink": "https://www.youtube.com/embed/HZ7PAyCDwEg",
-        "movieVideoImage": "hobbs-shaw-2019.jpg"
+        "movieVideoImage": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieVideoImages/hobbs-shaw-2019.jpg"
     },
     {
         "id": 8,
@@ -140,11 +140,11 @@ export const moviesData =
             "Drama",
             "Sci-fi"
         ],
-        "moviePoster": "logan-2017.jpg",
-        "movieCover": "logan-2017.jpg",
+        "moviePoster": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/moviePosters/logan-2017.jpg",
+        "movieCover": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieCovers/logan-2017.jpg",
         "review": 4.5,
         "trailerLink": "https://www.youtube.com/embed/Div0iP65aZo",
-        "movieVideoImage": "logan-2017.jpg"
+        "movieVideoImage": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieVideoImages/logan-2017.jpg"
     },
     {
         "id": 9,
@@ -156,11 +156,11 @@ export const moviesData =
             "Drama",
             "History"
         ],
-        "moviePoster": "dallas-buyers-club-2013.jpg",
-        "movieCover": "dallas-buyers-club-2013.jpg",
+        "moviePoster": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/moviePosters/dallas-buyers-club-2013.jpg",
+        "movieCover": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieCovers/dallas-buyers-club-2013.jpg",
         "review": 4.5,
         "trailerLink": "https://www.youtube.com/embed/XhrtmvBzAaA",
-        "movieVideoImage": "dallas-buyers-club-2013.jpg"
+        "movieVideoImage": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieVideoImages/dallas-buyers-club-2013.jpg"
     },
     {
         "id": 10,
@@ -172,11 +172,11 @@ export const moviesData =
             "Drama",
             "Mistery"
         ],
-        "moviePoster": "interstellar-2014.jpg",
-        "movieCover": "interstellar-2014.jpg",
+        "moviePoster": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/moviePosters/interstellar-2014.jpg",
+        "movieCover": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieCovers/interstellar-2014.jpg",
         "review": 4.5,
         "trailerLink": "https://www.youtube.com/embed/2LqzF5WauAw",
-        "movieVideoImage": "interstellar-2014.jpg"
+        "movieVideoImage": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieVideoImages/interstellar-2014.jpg"
     },
     {
         "id": 11,
@@ -188,11 +188,11 @@ export const moviesData =
             "Drama",
             "Action"
         ],
-        "moviePoster": "inglorious-basterds-2009.jpg",
-        "movieCover": "inglorious-basterds-2009.jpg",
+        "moviePoster": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/moviePosters/inglourious-basterds-2009.jpg",
+        "movieCover": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieCovers/inglourious-basterds-2009.jpg",
         "review": 4.7,
         "trailerLink": "https://www.youtube.com/embed/A3YxCWrWMZ8",
-        "movieVideoImage": "inglorious-basterds-2009.jpg"
+        "movieVideoImage": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieVideoImages/inglourious-basterds-2009.jpg"
     },
     {
         "id": 12,
@@ -203,11 +203,11 @@ export const moviesData =
         "category": [
             "Fantasy"
         ],
-        "moviePoster": "infinity-war-2019.jpg",
-        "movieCover": "infinity-war-2019.jpg",
+        "moviePoster": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/moviePosters/infinity-war-2019.jpg",
+        "movieCover": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieCovers/infinity-war-2019.jpg",
         "review": 4.5,
         "trailerLink": "https://www.youtube.com/embed/6ZfuNTqbHE8",
-        "movieVideoImage": "infinity-war-2019.jpg"
+        "movieVideoImage": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieVideoImages/infinity-war-2019.jpg"
     },
     {
         "id": 13,
@@ -219,11 +219,11 @@ export const moviesData =
             "Thriller",
             "Mystery"
         ],
-        "moviePoster": "John-Wick-3-2019.jpg",
-        "movieCover": "John-Wick-3-2019.jpg",
+        "moviePoster": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/moviePosters/john-wick-3-2019.jpg",
+        "movieCover": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieCovers/john-wick-3-2019.jpg",
         "review": 4.5,
         "trailerLink": "https://www.youtube.com/embed/pU8-7BX9uxs",
-        "movieVideoImage": "John-Wick-3-2019.jpg"
+        "movieVideoImage": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieVideoImages/john-wick-3-2019.jpg"
     },
     {
         "id": 14,
@@ -235,11 +235,11 @@ export const moviesData =
             "Drama",
             "Crime"
         ],
-        "moviePoster": "american-hustle-2013.jpg",
-        "movieCover": "american-hustle-2013.jpg",
+        "moviePoster": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/moviePosters/american-hustle-2013.jpg",
+        "movieCover": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieCovers/american-hustle-2013.jpg",
         "review": 4.5,
         "trailerLink": "https://www.youtube.com/embed/ST7a1aK_lG0",
-        "movieVideoImage": "american-hustle-2013.jpg"
+        "movieVideoImage": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieVideoImages/american-hustle-2013.jpg"
     },
     {
         "id": 15,
@@ -251,11 +251,11 @@ export const moviesData =
             "Drama",
             "Mystery"
         ],
-        "moviePoster": "the-hateful-eight-2015.jpg",
-        "movieCover": "the-hateful-eight-2015.jpg",
+        "moviePoster": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/moviePosters/the-hateful-eight-2015.jpg",
+        "movieCover": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieCovers/the-hateful-eight-2015.jpg",
         "review": 4.5,
         "trailerLink": "https://www.youtube.com/embed/TzK-GpDTX3Q",
-        "movieVideoImage": "the-hateful-eight-2015.jpg"
+        "movieVideoImage": "https://raw.githubusercontent.com/bekim-w/Movies-Web/master/src/assets/img/movieVideoImages/the-hateful-eight.jpg"
     }/*,
     {
         "id": 0,

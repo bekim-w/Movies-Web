@@ -50,20 +50,22 @@ class App extends Component {
 					<Header isLoggedInState={isLoggedInState} logOut={this.logOut} />
 			
 					<Switch>
-						<Route exact path='/' component={Home} />
-						<Route exact path='/register' component={Register} />
+						<Route exact path='/movies-web/' component={Home} />
+						<Route exact path='/movies-web/register' component={Register} />
 						{/*<Route exact path='/login' component={LogIn} />*/}
-						<Route exact path='/login' render={
+						<Route exact path='/movies-web/login' render={
 							(props) => <LogIn logIn={this.logIn} isLoggedInState={isLoggedInState} {...props} /> 
 						} />
 						<Route exact path={[
-							"/action",
-							"/animation",
-							"/drama"
+							"/movies-web/action",
+							"/movies-web/animation",
+							"/movies-web/drama",
+							"/movies-web/comedy",
+							"/movies-web/thriller"
 						]} component={GenrePage} />
-						<Route exact path="/search/:searchText" component={Search} />
+						<Route exact path="/movies-web/search/:searchText" component={Search} />
 						{/*<Route exact path="/:movieName" component={MoviePage} />*/}
-						<Route exact path="/:movieName" render={
+						<Route exact path="/movies-web/:movieName" render={
 							(props) => <MoviePage logIn={this.logIn} isLoggedInState={isLoggedInState} {...props} /> 
 						} />
 						<Route path="*" component={NotFoundPage} />

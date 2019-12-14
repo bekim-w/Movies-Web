@@ -14,6 +14,7 @@ class Search extends Component {
 	render() {
 		const { movies } = this.state;
 		const searchText = this.props.match.params.searchText;
+		console.log(searchText);
 
  		return (
 			<div className="container">
@@ -25,7 +26,7 @@ class Search extends Component {
 								<MainMovieCard
 									moviePoster={movie.moviePoster}
 									name={movie.name}
-									url={`/${movie.url}`} />
+									url={`/movies-web/${movie.url}`} />
 							: ""
 						))
 					}

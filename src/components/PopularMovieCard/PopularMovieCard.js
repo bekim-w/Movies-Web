@@ -30,7 +30,7 @@ class PopularMovieCard extends Component {
 								<h3>{movies[countMovies].name}</h3>
 								<p>{movies[countMovies].category.join(', ')}</p>
 								<p className="movie-card__description">{movies[countMovies].description.substring(0, 115)}...</p>
-		    	  				<button onClick={() => this.props.history.push(`/${movies[t].url}`)} >Watch Now</button>
+		    	  				<button onClick={() => this.props.history.push(`/movies-web/${movies[t].url}`)} >Watch Now</button>
 		    	  			</div>	
 			    	  	</div>
 		    	  	</div>

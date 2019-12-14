@@ -19,7 +19,7 @@ class IntroSection extends Component {
 					<div className="intro-section__details">
 						<h1 className="intro-section__title mb-4">All Your TV Shows and Movies in One Place</h1>
 						<p className="intro-section__description">Watch Thousands of Shows and Movies Anytime, Anywhere</p>
-						<button className="btn btn-primary btn-lg" onClick={() => this.props.history.push("/register")}>Register Now</button>
+						<button className="btn btn-primary btn-lg" onClick={() => this.props.history.push("movies-web/register")}>Register Now</button>
 					</div>
 				</div>
 		    </div>

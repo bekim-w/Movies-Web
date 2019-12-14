@@ -70,7 +70,7 @@ class MoviePage extends Component {
 					{
 						(isLoggedInState) ?
 							<iframe className="movieVideo"
-								src="https://www.youtube.com/embed/WHXxVmeGQUc">
+								src={movie.trailerLink}>
 							</iframe>
 						:
 							<div className="movieVideoImage" onClick={this.openModal} style={{ backgroundImage: `url(${movie.movieVideoImage})` }}>
