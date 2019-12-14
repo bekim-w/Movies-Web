@@ -1,5 +1,5 @@
 ## Demo:
-[https://bekim-w.github.io/movies-web/](https://bekim-w.github.io/movies-web/)
+[https://bekim-w.github.io/Movies-Web/](https://bekim-w.github.io/Movies-Web/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
