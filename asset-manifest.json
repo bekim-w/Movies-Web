@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.515d6be3.chunk.css",
-    "main.js": "/static/js/main.e0456af2.chunk.js",
-    "main.js.map": "/static/js/main.e0456af2.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.865c013a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.865c013a.js.map",
-    "static/css/2.266e55a5.chunk.css": "/static/css/2.266e55a5.chunk.css",
-    "static/js/2.6bdcf019.chunk.js": "/static/js/2.6bdcf019.chunk.js",
-    "static/js/2.6bdcf019.chunk.js.map": "/static/js/2.6bdcf019.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.b95571aeb074e38d2d6497c7330f9e12.js": "/precache-manifest.b95571aeb074e38d2d6497c7330f9e12.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.515d6be3.chunk.css.map": "/static/css/main.515d6be3.chunk.css.map",
-    "static/media/star-review-no-bg.png": "/static/media/star-review-no-bg.b6d4939b.png"
+    "main.css": "/movies-web/static/css/main.42c5b74e.chunk.css",
+    "main.js": "/movies-web/static/js/main.e3b9d3bd.chunk.js",
+    "main.js.map": "/movies-web/static/js/main.e3b9d3bd.chunk.js.map",
+    "runtime~main.js": "/movies-web/static/js/runtime~main.fb6ae016.js",
+    "runtime~main.js.map": "/movies-web/static/js/runtime~main.fb6ae016.js.map",
+    "static/css/2.266e55a5.chunk.css": "/movies-web/static/css/2.266e55a5.chunk.css",
+    "static/js/2.688a6ff5.chunk.js": "/movies-web/static/js/2.688a6ff5.chunk.js",
+    "static/js/2.688a6ff5.chunk.js.map": "/movies-web/static/js/2.688a6ff5.chunk.js.map",
+    "index.html": "/movies-web/index.html",
+    "precache-manifest.d2b4ffa8ece4409210e988e5a184b4fd.js": "/movies-web/precache-manifest.d2b4ffa8ece4409210e988e5a184b4fd.js",
+    "service-worker.js": "/movies-web/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/movies-web/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.42c5b74e.chunk.css.map": "/movies-web/static/css/main.42c5b74e.chunk.css.map",
+    "static/media/star-review-no-bg.png": "/movies-web/static/media/star-review-no-bg.b6d4939b.png"
   }
 }
