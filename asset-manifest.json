@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Movies-Web/static/css/main.515d6be3.chunk.css",
+    "main.js": "/Movies-Web/static/js/main.70865614.chunk.js",
+    "main.js.map": "/Movies-Web/static/js/main.70865614.chunk.js.map",
+    "runtime~main.js": "/Movies-Web/static/js/runtime~main.385d27af.js",
+    "runtime~main.js.map": "/Movies-Web/static/js/runtime~main.385d27af.js.map",
+    "static/css/2.266e55a5.chunk.css": "/Movies-Web/static/css/2.266e55a5.chunk.css",
+    "static/js/2.6bdcf019.chunk.js": "/Movies-Web/static/js/2.6bdcf019.chunk.js",
+    "static/js/2.6bdcf019.chunk.js.map": "/Movies-Web/static/js/2.6bdcf019.chunk.js.map",
+    "index.html": "/Movies-Web/index.html",
+    "precache-manifest.d036334c7126c27e0040a78c70e20987.js": "/Movies-Web/precache-manifest.d036334c7126c27e0040a78c70e20987.js",
+    "service-worker.js": "/Movies-Web/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/Movies-Web/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.515d6be3.chunk.css.map": "/Movies-Web/static/css/main.515d6be3.chunk.css.map",
+    "static/media/star-review-no-bg.png": "/Movies-Web/static/media/star-review-no-bg.b6d4939b.png"
+  }
+}
