@@ -36,7 +36,7 @@ class LogIn extends Component {
 
 		if(userExists) {
 			this.props.logIn();
-			this.props.history.push(`/Movies-Web`);
+			this.props.history.push(`/Movies-Web/`);
 		} else {
 			alert("Wrong Email or Password!!!");
 		}
