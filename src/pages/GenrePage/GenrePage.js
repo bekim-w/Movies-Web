@@ -30,7 +30,7 @@ class GenrePage extends Component {
 								<MainMovieCard
 									moviePoster={movie.moviePoster}
 									name={movie.name}
-									url={`/movies-web/${movie.url}`} />
+									url={`/Movies-Web/${movie.url}`} />
 							: ""
 						))
 					}

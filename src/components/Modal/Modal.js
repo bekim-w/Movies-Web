@@ -64,7 +64,7 @@ class Modal extends Component {
 				        </div>
 				        <div className="register-modal__input-row">
 					        <button onClick={this.submitLogIn}>Log In</button>
-					        <button onClick={() => this.props.history.push(`/movies-web/register`)}>Register</button>
+					        <button onClick={() => this.props.history.push(`/Movies-Web/register`)}>Register</button>
 			        	</div>
 			        </div>
 			    </div>

@@ -9,7 +9,7 @@ class Logo extends Component {
 
 	render (){
 		return (
-			<div className="logo mr-5" onClick={() => this.props.history.push("/movies-web")}>
+			<div className="logo mr-5" onClick={() => this.props.history.push("/Movies-Web")}>
 				<img className="navbar-brand logo__photo" src="https://retohercules.com/images/cinema-icon-png-1.png" alt="" />
 				<span className="navbar-brand">MovieHouse</span>
 			</div>

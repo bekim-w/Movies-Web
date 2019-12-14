@@ -13,7 +13,7 @@ class Header extends Component {
 	}
 
 	chooseMovieGenre = (movieGenre) => {
-		this.props.history.push(`${this.props.match.url}movies-web/${movieGenre}`);
+		this.props.history.push(`${this.props.match.url}Movies-Web/${movieGenre}`);
 	}
 	
 	getSearchInputText = (event) => {
@@ -23,7 +23,7 @@ class Header extends Component {
 	submitSearchText = (event) => {
 		// event.preventDefault();
 		if(this.state.searchInputText != "") {
-			this.props.history.push(`${this.props.match.url}movies-web/search/${this.state.searchInputText}`);
+			this.props.history.push(`${this.props.match.url}Movies-Web/search/${this.state.searchInputText}`);
 		}
 	}
 
@@ -48,7 +48,7 @@ class Header extends Component {
 								<ul className="navbar-nav mr-auto mt-2 mt-lg-0">
 									<li className="nav-item">
 										{/*<a className="nav-link" href="index.js">Home <span className="sr-only">(current)</span></a>*/}
-										<a href="#" className="nav-link" onClick={() => this.props.history.push("/movies-web/")}>Home</a>
+										<a href="#" className="nav-link" onClick={() => this.props.history.push("/Movies-Web/")}>Home</a>
 									</li>
 									<li className="nav-item dropdown">
 										<a className="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="index.js">Movie Genres</a>
@@ -85,8 +85,8 @@ class Header extends Component {
 									</div>
 									:
 									<div>
-										<button className="btn btn-outline-primary mr-2" onClick={() => this.props.history.push("/movies-web/login")}>Log in</button>
-										<button className="btn btn-outline-primary" onClick={() => this.props.history.push("/movies-web/register")}>Register</button>
+										<button className="btn btn-outline-primary mr-2" onClick={() => this.props.history.push("/Movies-Web/login")}>Log in</button>
+										<button className="btn btn-outline-primary" onClick={() => this.props.history.push("/Movies-Web/register")}>Register</button>
 									</div>
 								}
 								</div>
