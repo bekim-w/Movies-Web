@@ -26,7 +26,7 @@ class Home extends Component {
 					<MainMovieCard
 						moviePoster={movies[countMovies].moviePoster}
 						name={movies[countMovies].name}
-						url={`${this.props.match.url}/${movies[countMovies].url}`} />
+						url={`${this.props.match.url}${movies[countMovies].url}`} />
 				);
 				countMovies++;
 			}

@@ -21,7 +21,7 @@ class Header extends Component {
 	}
 
 	submitSearchText = (event) => {
-		// event.preventDefault();
+		event.preventDefault();
 		if(this.state.searchInputText != "") {
 			this.props.history.push(`${this.props.match.url}Movies-Web/search/${this.state.searchInputText}`);
 		}
