@@ -46,6 +46,7 @@ class App extends Component {
 
  		return (
 			<div>
+				<h1>Github Test Heading</h1>
 				<Router>
 					<Header isLoggedInState={isLoggedInState} logOut={this.logOut} />
 			
